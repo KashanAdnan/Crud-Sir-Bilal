@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Crud Application Bilal Sir ",
+  "main": "server.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.mjs",
+    "start": "node server.mjs"
+  },
+  "keywords": [
+    "javascript",
+    "node js",
+    "express js",
+    "react js",
+    "api",
+    "rest api",
+    "crud"
+  ],
+  "author": "Kashan Adnan",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.6.2"
+  }
+}
