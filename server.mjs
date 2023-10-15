@@ -4,7 +4,12 @@ dotenv.config()
 import connectDb from "./DB/Connect.DB.mjs"
 import User from "./model/user.mjs"
 const app = express()
+import cors from "cors"
 
+app.use(cors({
+    origin: "*",
+    credentials: true
+}))
 app.use(express.json())
 connectDb(process.env.MONGODB_URI)
 
